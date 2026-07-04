@@ -1,3 +1,4 @@
 .venv
 .idea
 /results/parquet_files/
+log.txt
