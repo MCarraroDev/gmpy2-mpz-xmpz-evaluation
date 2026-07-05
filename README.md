@@ -2,6 +2,7 @@
 
 # Big Numbers Benchmark: Python int vs gmpy2 (mpz, xmpz)
 
+[![Italian Version](https://img.shields.io/badge/README-Italiano-green?style=flat-square)](README.it.md)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
@@ -47,7 +48,7 @@ Tests the calculation of 20000! using an iterative multiplication loop, simulati
 **Conclusion:** `gmpy2 xmpz` is the optimal data structure for sequential heavy mathematics. It leverages both advanced C-level multiplication algorithms and memory-efficient in-place mutations, vastly outperforming both `mpz` and native Python `int`.
 
 ## Requirements
-**(Windows / MacOS / Linux)** Run in a terminal:
+**(Windows / macOS / Linux)** Run in a terminal:
 ```bash
 pip install -r requirements.txt
 ```
